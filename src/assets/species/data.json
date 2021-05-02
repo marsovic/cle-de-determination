@@ -1,0 +1,251 @@
+{
+    "1" : {
+        "image": "/images/moule.png",
+        "cache": "/images/moule-cache.png",
+        "espece":  "la Moule commune",
+        "latin": "Mytilus edulis",
+        "caracteres": ["deplacement", "pattes", "corps"],
+        "deplacement" : {
+            "1": {
+                "name": "Je peux me déplacer",
+                "value": true
+            },
+            "2": {
+                "name": "Je vis accroché à mon substrat",
+                "value": false
+            }
+        },
+        "pattes": {
+            "1": {
+                "name": "Je n'ai pas de pattes",
+                "value": true
+            },
+            "2": {
+                "name": "J'ai des pattes articulées",
+                "value": false
+            }
+        },
+        "corps": {
+            "1": {
+                "name": "J'ai une coquille",
+                "value": true
+            },
+            "2": {
+                "name": "J'ai un corps annelé",
+                "value": false
+            }
+        }
+    },
+    "2" : {
+        "image": "/images/arenicole.png",
+        "cache": "/images/arenicole-cache.png",
+        "espece":  "l'Arénicole",
+        "latin": "Arenicola marina",
+        "caracteres": ["deplacement", "pattes", "corps"],
+        "deplacement" : {
+            "1": {
+                "name": "Je peux me déplacer",
+                "value": true
+            },
+            "2": {
+                "name": "Je vis accroché à mon substrat",
+                "value": false
+            }
+        },
+        "pattes": {
+            "1": {
+                "name": "Je n'ai pas de pattes",
+                "value": true
+            },
+            "2": {
+                "name": "J'ai des pattes articulées",
+                "value": false
+            }
+        },
+        "corps": {
+            "1": {
+                "name": "J'ai une coquille",
+                "value": false
+            },
+            "2": {
+                "name": "J'ai un corps annelé",
+                "value": true
+            }
+        }
+    },
+    "3" : {
+        "image": "/images/galathee.png",
+        "cache": "/images/galathee-cache.png",
+        "espece":  "la Galathée Noire",
+        "latin": "Galathea sqamifera",
+        "caracteres": ["deplacement", "pattes", "corps"],
+        "deplacement" : {
+            "1": {
+                "name": "Je peux me déplacer",
+                "value": true
+            },
+            "2": {
+                "name": "Je vis accroché à mon substrat",
+                "value": false
+            }
+        },
+        "pattes": {
+            "1": {
+                "name": "Je n'ai pas de pattes",
+                "value": false
+            },
+            "2": {
+                "name": "J'ai des pattes articulées",
+                "value": true
+            }
+        },
+        "corps": {
+            "1": {
+                "name": "J'ai un corps plutôt allongé",
+                "value": true
+            },
+            "2": {
+                "name": "J'ai l'extrémité de ma 5e paire de pattes aplatie (palette natatoire)",
+                "value": false
+            }
+        }
+    },
+    "4" : {
+        "image": "/images/etrille.png",
+        "cache": "/images/etrille-cache.png",
+        "espece":  "l'Etrille commune",
+        "latin": "Necora puber",
+        "caracteres": ["deplacement", "pattes", "corps"],
+        "deplacement" : {
+            "1": {
+                "name": "Je peux me déplacer",
+                "value": true
+            },
+            "2": {
+                "name": "Je vis accroché à mon substrat",
+                "value": false
+            }
+        },
+        "pattes": {
+            "1": {
+                "name": "Je n'ai pas de pattes",
+                "value": false
+            },
+            "2": {
+                "name": "J'ai des pattes articulées",
+                "value": true
+            }
+        },
+        "corps": {
+            "1": {
+                "name": "J'ai un corps plutôt allongé",
+                "value": false
+            },
+            "2": {
+                "name": "J'ai l'extrémité de ma 5e paire de pattes aplatie (palette natatoire)",
+                "value": true
+            }
+        }
+    },
+    "5" : {
+        "image": "/images/ecorce.png",
+        "cache": "/images/ecorce-cache.png",
+        "espece":  "l'Ecorce marine",
+        "latin": "Membranipora membranacea",
+        "caracteres": ["deplacement", "groupe", "corps"],
+        "deplacement" : {
+            "1": {
+                "name": "Je peux me déplacer",
+                "value": false
+            },
+            "2": {
+                "name": "Je vis accroché à mon substrat",
+                "value": true
+            }
+        },
+        "groupe": {
+            "1": {
+                "name": "Je vis en colonie",
+                "value": true
+            },
+            "2": {
+                "name": "Je vis seul",
+                "value": false
+            }
+        },
+        "corps": {
+            "1": {
+                "name": "Ma colonie a une forme de structure en maille",
+                "value": true
+            },
+            "2": {
+                "name": "Ma colonie a une forme de structure en fleur ou en étoile",
+                "value": false
+            }
+        }
+    },
+    "6" : {
+        "image": "/images/botrylle.png",
+        "cache": "/images/botrylle-cache.png",
+        "espece":  "la Botrylle étoilée",
+        "latin": "Botryllus schlosseri",
+        "caracteres": ["deplacement", "groupe", "corps"],
+        "deplacement" : {
+            "1": {
+                "name": "Je peux me déplacer",
+                "value": false
+            },
+            "2": {
+                "name": "Je vis accroché à mon substrat",
+                "value": true
+            }
+        },
+        "groupe": {
+            "1": {
+                "name": "Je vis en colonie",
+                "value": true
+            },
+            "2": {
+                "name": "Je vis seul",
+                "value": false
+            }
+        },
+        "corps": {
+            "1": {
+                "name": "Ma colonie a une forme de structure en maille",
+                "value": false
+            },
+            "2": {
+                "name": "Ma colonie a une forme de structure en fleur ou en étoile",
+                "value": true
+            }
+        }
+    },
+    "7" : {
+        "image": "/images/sabelle.png",
+        "cache": "/images/sabelle-cache.png",
+        "espece":  "la Sabelle paon",
+        "latin": "Sabella pavonina",
+        "caracteres": ["deplacement", "groupe"],
+        "deplacement" : {
+            "1": {
+                "name": "Je peux me déplacer",
+                "value": false
+            },
+            "2": {
+                "name": "Je vis accroché à mon substrat",
+                "value": true
+            }
+        },
+        "groupe": {
+            "1": {
+                "name": "Je vis en colonie",
+                "value": false
+            },
+            "2": {
+                "name": "Je vis seul",
+                "value": true
+            }
+        }
+    }
+}
