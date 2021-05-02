@@ -2,7 +2,7 @@
     "1" : {
         "image": "/images/moule.png",
         "cache": "/images/moule-cache.png",
-        "espece":  "la Moule commune",
+        "espece":  "la moule commune",
         "latin": "Mytilus edulis",
         "caracteres": ["deplacement", "pattes", "corps"],
         "deplacement" : {
@@ -11,7 +11,7 @@
                 "value": true
             },
             "2": {
-                "name": "Je vis accroché à mon substrat",
+                "name": "Je vis accroché à mon substrat. (Substrat: Support sur lequel se développe un végétal ou se fixe un animal sédentaire (= qui reste toujours au même endroit) )",
                 "value": false
             }
         },
@@ -32,6 +32,7 @@
             },
             "2": {
                 "name": "J'ai un corps annelé",
+                "image": "/images/annele.png",
                 "value": false
             }
         }
@@ -39,7 +40,7 @@
     "2" : {
         "image": "/images/arenicole.png",
         "cache": "/images/arenicole-cache.png",
-        "espece":  "l'Arénicole",
+        "espece":  "l'arénicole",
         "latin": "Arenicola marina",
         "caracteres": ["deplacement", "pattes", "corps"],
         "deplacement" : {
@@ -48,7 +49,7 @@
                 "value": true
             },
             "2": {
-                "name": "Je vis accroché à mon substrat",
+                "name": "Je vis accroché à mon substrat. (Substrat: Support sur lequel se développe un végétal ou se fixe un animal sédentaire (= qui reste toujours au même endroit) )",
                 "value": false
             }
         },
@@ -69,6 +70,7 @@
             },
             "2": {
                 "name": "J'ai un corps annelé",
+                "image": "/images/annele.png",
                 "value": true
             }
         }
@@ -76,7 +78,7 @@
     "3" : {
         "image": "/images/galathee.png",
         "cache": "/images/galathee-cache.png",
-        "espece":  "la Galathée Noire",
+        "espece":  "la galathée Noire",
         "latin": "Galathea sqamifera",
         "caracteres": ["deplacement", "pattes", "corps"],
         "deplacement" : {
@@ -85,7 +87,7 @@
                 "value": true
             },
             "2": {
-                "name": "Je vis accroché à mon substrat",
+                "name": "Je vis accroché à mon substrat. (Substrat: Support sur lequel se développe un végétal ou se fixe un animal sédentaire (= qui reste toujours au même endroit) )",
                 "value": false
             }
         },
@@ -113,7 +115,7 @@
     "4" : {
         "image": "/images/etrille.png",
         "cache": "/images/etrille-cache.png",
-        "espece":  "l'Etrille commune",
+        "espece":  "l'etrille commune",
         "latin": "Necora puber",
         "caracteres": ["deplacement", "pattes", "corps"],
         "deplacement" : {
@@ -122,7 +124,7 @@
                 "value": true
             },
             "2": {
-                "name": "Je vis accroché à mon substrat",
+                "name": "Je vis accroché à mon substrat. (Substrat: Support sur lequel se développe un végétal ou se fixe un animal sédentaire (= qui reste toujours au même endroit))",
                 "value": false
             }
         },
@@ -150,7 +152,7 @@
     "5" : {
         "image": "/images/ecorce.png",
         "cache": "/images/ecorce-cache.png",
-        "espece":  "l'Ecorce marine",
+        "espece":  "l'ecorce marine",
         "latin": "Membranipora membranacea",
         "caracteres": ["deplacement", "groupe", "corps"],
         "deplacement" : {
@@ -159,7 +161,7 @@
                 "value": false
             },
             "2": {
-                "name": "Je vis accroché à mon substrat",
+                "name": "Je vis accroché à mon substrat. (Substrat: Support sur lequel se développe un végétal ou se fixe un animal sédentaire (= qui reste toujours au même endroit))",
                 "value": true
             }
         },
@@ -176,6 +178,7 @@
         "corps": {
             "1": {
                 "name": "Ma colonie a une forme de structure en maille",
+                "image": "/images/maille.png",
                 "value": true
             },
             "2": {
@@ -187,7 +190,7 @@
     "6" : {
         "image": "/images/botrylle.png",
         "cache": "/images/botrylle-cache.png",
-        "espece":  "la Botrylle étoilée",
+        "espece":  "la botrylle étoilée",
         "latin": "Botryllus schlosseri",
         "caracteres": ["deplacement", "groupe", "corps"],
         "deplacement" : {
@@ -196,7 +199,7 @@
                 "value": false
             },
             "2": {
-                "name": "Je vis accroché à mon substrat",
+                "name": "Je vis accroché à mon substrat. (Substrat: Support sur lequel se développe un végétal ou se fixe un animal sédentaire (= qui reste toujours au même endroit))",
                 "value": true
             }
         },
@@ -213,6 +216,7 @@
         "corps": {
             "1": {
                 "name": "Ma colonie a une forme de structure en maille",
+                "image": "/images/maille.png",
                 "value": false
             },
             "2": {
@@ -224,7 +228,7 @@
     "7" : {
         "image": "/images/sabelle.png",
         "cache": "/images/sabelle-cache.png",
-        "espece":  "la Sabelle paon",
+        "espece":  "la sabelle paon",
         "latin": "Sabella pavonina",
         "caracteres": ["deplacement", "groupe"],
         "deplacement" : {
@@ -233,7 +237,7 @@
                 "value": false
             },
             "2": {
-                "name": "Je vis accroché à mon substrat",
+                "name": "Je vis accroché à mon substrat. (Substrat: Support sur lequel se développe un végétal ou se fixe un animal sédentaire (= qui reste toujours au même endroit))",
                 "value": true
             }
         },

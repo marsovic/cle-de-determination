@@ -45,6 +45,7 @@ class Choix extends Component {
 
     render() {
         var toReturn = null;
+        var picture = null;
         if(this.props.specie["caracteres"].length > this.state.tour) {
             toReturn = (
             <div>
@@ -91,9 +92,23 @@ class Choix extends Component {
                 </div>
             )
         }
+
+        if(this.props.specie[this.props.specie["caracteres"][this.state.tour]] !== undefined ) {
+            if(this.props.specie[this.props.specie["caracteres"][this.state.tour]][1]["image"] !== undefined ) {
+                picture = (<div className={styles.Picture}> <img alt="maille" src={this.props.specie[this.props.specie["caracteres"][this.state.tour]][1]["image"]} /> <p>Structure en maille</p> </div>)
+            }
+        }
+
+        if(this.props.specie[this.props.specie["caracteres"][this.state.tour]] !== undefined ) {
+            if(this.props.specie[this.props.specie["caracteres"][this.state.tour]][2]["image"] !== undefined ) {
+                picture = (<div className={styles.Picture}> <img alt="annelé" src={this.props.specie[this.props.specie["caracteres"][this.state.tour]][2]["image"]} /> </div>)
+            }
+        }
+
         return (
             <div className={styles.Global}>
                 {toReturn}
+                {picture}
                 <ToastContainer />
             </div>
         );

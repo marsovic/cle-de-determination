@@ -18,7 +18,7 @@ class Description extends Component {
         
         return (
             <div className={styles.Global}>
-                <p>Liste des caractères déjà découverts: </p>
+                <p>Liste des caractéristiques déjà découvertes: </p>
                 <ul>
                 {toReturn}
                 </ul>
